@@ -10,3 +10,6 @@ def selection_sort(lst):
                 min_index = j
         lst[i], lst[min_index] = lst[min_index], lst[i]
     return lst
+
+# Time Complexity: O(n**2)
+# Auxiliary Space: O(1)
