@@ -76,3 +76,10 @@ mergeSort(arr, 0, n-1)
 print("\n\nSorted array is")
 print(arr)
 
+# Time Complexity: O(n*log(n))
+# Auxiliary Space: O(n)
+
+""" Limitations """
+# It requires the use of an extra array
+# Extra storage can be costly
+# Recursive call and return are expensive
