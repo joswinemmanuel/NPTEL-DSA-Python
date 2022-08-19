@@ -42,5 +42,5 @@ result = [1, 2, 2, 4, 4, 5, 6, 6, 7, 8]
 # As you can see, it works for duplicates too
 print(quicksort(0, len(example)-1, example))
 
-# Time Complexity: Worst case time complexity is O(N2) and average case time complexity is O(N logN)
+# Time Complexity: Worst case time complexity is O(n**2) and average case time complexity is O(n*log(n))
 # Auxiliary Space: O(1)
