@@ -45,4 +45,5 @@ print(quicksort(0, len(example)-1, example))
 # Time Complexity: Worst case time complexity is O(n**2) and average case time complexity is O(n*log(n))
 # Auxiliary Space: O(1)
 
+# Worst case is when the array is already sorted
 """ Generally built-in sort function in programming languages are quick sort """
