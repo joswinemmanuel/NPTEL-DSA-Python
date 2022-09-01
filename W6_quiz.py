@@ -61,10 +61,12 @@ following could not have been the last element inserted into this heap?
  15
  58
  51 """
+ # check this out for explanation
+ # https://stackoverflow.com/questions/69024237/find-the-last-element-inserted-into-the-min-heap
 
  # ANS) 58
 
 """ 4) Suppose we execute delete-min twice on the min-heap [13,29,24,67,52,89,45,98.79,58].
  What is the resulting heap? """
-
+# just do to delete_min() operation on the heap and we will get the answer:
 # ANS) [29,52,45,67,98.79,89,58]
