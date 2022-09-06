@@ -66,7 +66,7 @@ following could not have been the last element inserted into this heap?
 
  # ANS) 58
 
-""" 4) Suppose we execute delete-min twice on the min-heap [13,29,24,67,52,89,45,98.79,58].
+""" 4) Suppose we execute delete-min twice on the min-heap [13,29,24,67,52,89,45,98,79,58].
  What is the resulting heap? """
 # just do to delete_min() operation on the heap and we will get the answer:
-# ANS) [29,52,45,67,98.79,89,58]
+# ANS) [29,52,45,67,79,89,58,98]
