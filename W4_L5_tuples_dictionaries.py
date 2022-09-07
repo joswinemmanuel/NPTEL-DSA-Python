@@ -1,5 +1,5 @@
 """ Tuples """
-# simultaneous assignments
+# simultaneous assignment
 a, b, c = 10, 11, 12
 # is actually (a, b, c) = (10, 11, 12)
 t = 1, 2, 3
