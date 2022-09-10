@@ -1,4 +1,6 @@
 """ float the sentence break up into MANTISSA and EXPONENT """
+# 1.2345 = 12345 x 10**-4
+#      (mantissa)  (exponent)
 # 0.602    X 10**24 
 #(mantissa) (exponent)
 
