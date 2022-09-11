@@ -6,9 +6,9 @@
 # Ex: Heap - insert() and delete_max()
 
 # We are implementing all these using builtin list, 
-# but the operations of list like append should not be done is heap etc
+# but the operations of list, like append should not be done in heap etc
 
-# In order to avoid this define abstract datatypes, where no other operations can be done
+# In order to avoid this, we define abstract datatypes, where no other operations can be done
 # Ex: In stack, (stack.push(v)).pop() == v, as stack.pop() gives back the last value added
 # and last value added using stack.push() is v, so it should be equal to v
 # Ex: In queue, ((q.enqueue(u)).enqueue(v)).dequeue() == u
@@ -29,7 +29,7 @@ class Heap:
         # create heap from list l
     def insert(self, x):
         # insert x into heap
-    def delete_max(self, x):
+    def delete_max(self):
         # return max element and delete it from heap
 
 # creating object
