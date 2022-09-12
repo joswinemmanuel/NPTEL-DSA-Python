@@ -17,7 +17,7 @@ list1.append(100) # list1 is manipulated, added a new value,
 # not changed into a new list, so list2 also changed
 print(list1)
 print(list2)
-# both will be [1, 2, 3, 100f]
+# both will be [1, 2, 3, 100]
 
 " Shrink and Expand list using slices "
 list1 = [1, 2, 3, 4, 5]
